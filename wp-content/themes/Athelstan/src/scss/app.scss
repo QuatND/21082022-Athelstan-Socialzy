@@ -1,6 +1,10 @@
 @charset "utf-8";
 @import "color-font";
 @import "error-404";
+@import "class-gen";
 @import "style";
-@import "page/home";
+@import "page/section";
+@import "page/service";
+@import "page/project";
+@import "page/about";
 @import "responsive";

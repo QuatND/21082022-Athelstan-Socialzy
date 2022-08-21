@@ -1,0 +1,178 @@
+.btn-custom {
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    background-color: #3d3568;
+    border-radius: 5rem;
+    padding: 15px 26px;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: all 0.4s ease;
+    display: flex;
+    i {
+        font-size: 1.8rem;
+        padding-left: 1rem;
+    }
+}
+
+.btn-custom:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-10px);
+}
+
+.section-1-banner-statistical {
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 10px 40px 10px 18px;
+    backdrop-filter: blur(2rem);
+    .section-1-banner-statistical-icon {
+        font-size: 18px;
+        margin-right: 14px;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-1-banner-statistical-number {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 1.2em;
+        color: #000000;
+        span {
+            font-size: 16px;
+            font-weight: 100;
+        }
+    }
+}
+
+.section-1-des-welcome {
+    font-family: 'DMSans-Medium';
+    font-size: 12px;
+    padding: 8px 15px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: #ffe0cc;
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-1-des-body-heading {
+    font-family: 'DMSans-Medium';
+    font-size: 38px;
+    line-height: 1.1;
+    color: #000000;
+    position: relative;
+    &.fs-24 {
+        font-size: 24px;
+    }
+}
+
+.section-1-des-body-text {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 42px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.not-flex {
+    display: inline-block;
+}
+
+.elementor-background-overlay {
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.03;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.acf-form {
+    .acf-fields {
+        .acf-field {
+            border-top: none;
+            padding: 15px 0;
+            .af-label {
+                display: none;
+            }
+            .af-input {
+                input,
+                textarea,
+                select {
+                    border-radius: 5px;
+                    padding: 16px 20px 16px 30px;
+                    border-style: solid;
+                    border-width: 1px;
+                    border-color: #ededed;
+                    color: #000000;
+                    font-size: 16px;
+                    background: transparent;
+                    &::placeholder {
+                        color: #cecece;
+                    }
+                }
+            }
+        }
+        .af-submit {
+            top: 0;
+            right: 0;
+            padding: 0;
+            z-index: 2;
+            align-self: center;
+            button {
+                color: var( --e-global-color-e96376f);
+                background-color: var( --e-global-color-accent);
+                font-family: var( --e-global-text-font-family);
+                font-size: var( --e-global-text-font-size);
+                font-weight: var( --e-global-text-font-weight);
+                text-transform: var( --e-global-text-text-transform);
+                line-height: var( --e-global-text-line-height);
+                letter-spacing: var( --e-global-text-letter-spacing);
+                word-spacing: var( --e-global-text-word-spacing);
+                border-radius: 50px 50px 50px 50px;
+                padding: 11px 30px 11px 30px;
+                color: var( --e-global-color-e96376f);
+                background-color: var( --e-global-color-accent);
+                border: none;
+                transition: 0.3s all;
+                &:hover {
+                    background: $pri;
+                }
+            }
+            button {
+                border-radius: 50px 50px 50px 50px;
+                padding: 11px 30px 11px 30px;
+                color: #ffffff;
+                background: $pri;
+                border: none;
+                transition: 0.3s all;
+                &:hover {
+                    background: var( --e-global-color-accent);
+                }
+            }
+        }
+    }
+}
+
+.heading {
+    color: #000000;
+}

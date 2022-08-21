@@ -10,6 +10,7 @@ node_modules/
 .idea
 .idea/*
 wp-content/themes/epal-theme/node_modules
+wp-content/themes/epal-theme/yarn.lock
 wp-content/cache
 .htaccess
 wp-config.php

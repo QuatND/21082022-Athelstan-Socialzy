@@ -1,34 +1,23 @@
 @font-face {
-    font-family: fontR;
-    src: url('../fonts/Barlow-Regular.ttf');
+    font-family: 'DMSans-Regular';
+    src: url('../fonts/DMSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: fontSB;
-    src: url('../fonts/Barlow-SemiBold.ttf');
+    font-family: 'DMSans-Bold';
+    src: url('../fonts/DMSans-Bold.ttf');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: fontB;
-    src: url('../fonts/Barlow-Bold.ttf');
+    font-family: 'DMSans-Medium';
+    src: url('../fonts/DMSans-Medium.ttf');
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face {
-    font-family: fontM;
-    src: url('../fonts/Barlow-Medium.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: fontI;
-    src: url('../fonts/Barlow-Italic.ttf');
-    font-weight: normal;
-    font-style: normal;
+    font-display: swap;
 }
