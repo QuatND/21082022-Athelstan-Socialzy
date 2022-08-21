@@ -1,0 +1,34 @@
+@font-face {
+    font-family: fontR;
+    src: url('../fonts/Barlow-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fontSB;
+    src: url('../fonts/Barlow-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fontB;
+    src: url('../fonts/Barlow-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fontM;
+    src: url('../fonts/Barlow-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fontI;
+    src: url('../fonts/Barlow-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

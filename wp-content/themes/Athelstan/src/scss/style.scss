@@ -1,0 +1,109 @@
+html {
+    font-size: 10px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: fontR;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    overflow-x: hidden;
+    background: #f9f9f9;
+}
+
+.container-cxl {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.d-flex {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.lh-1 {
+    line-height: 1;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.mr-40 {
+    margin-top: 40px;
+}
+
+.wrapper-content {
+    margin-top: 50px;
+}
+
+.wrapper-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper-title {
+    position: relative;
+    img {
+        height: 8px;
+        margin-bottom: 5px;
+    }
+    .title-bot {
+        line-height: 1.2;
+        margin-top: 5px;
+    }
+}
+
+
+.owl-carousel {
+    .owl-nav {
+        text-align: center;
+        margin-top: 10px;
+        button {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            background: $pri !important;
+            color: #ffffff !important;
+            display: inline-block;
+            margin: 0 5px;
+            i {
+                font-size: 16px;
+            }
+        }
+    }
+}
