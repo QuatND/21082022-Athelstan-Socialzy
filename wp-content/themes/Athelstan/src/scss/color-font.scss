@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap');
-$pri: #E5B538;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;1,200;1,300&display=swap');
+$pri: #FF6400;
+$main: #3d3568;
+$pri_hover: #3d3568;
 .color-main {
     color: $pri;
 }
@@ -30,15 +32,15 @@ $pri: #E5B538;
 }
 
 .font-b {
-    font-family: fontB;
+    font-family: "DMSans-Bold";
 }
 
 .font-r {
-    font-family: fontR;
+    font-family: "DMSans-Regular";
 }
 
 .font-m {
-    font-family: fontM;
+    font-family: "DMSans-Medium";
 }
 
 .fs-40 {
@@ -83,4 +85,12 @@ $pri: #E5B538;
 
 .pading-0 {
     padding: 0;
+}
+
+.mr-b-0 {
+    margin-bottom: 0 !important;
+}
+
+.mr-t-0 {
+    margin-top: 0 !important;
 }
