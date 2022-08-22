@@ -928,8 +928,8 @@ img {
     }
     .comment-respond {
         border-top: #e3e3ea;
-        padding-top: 50px;
-        margin-top: 50px;
+        padding-top: 30px;
+        margin-top: 30px;
         #reply-title {
             color: #000000;
             font-size: 38px;
@@ -941,7 +941,6 @@ img {
                 margin-top: 15px;
             }
             p {
-                margin-bottom: 0;
                 input,
                 textarea {
                     width: 100%;
@@ -950,6 +949,20 @@ img {
                     transition: all .3s;
                     padding: 5px 10px;
                     background: transparent;
+                }
+            }
+            .comment-form-cookies-consent {
+                display: flex;
+                input {
+                    margin-right: 15px;
+                    width: 15px;
+                    padding: 0;
+                    line-height: 1;
+                    height: 15px;
+                    align-self: center;
+                }
+                label {
+                    margin-bottom: 0;
                 }
             }
             .comment-form-url {
@@ -1531,5 +1544,127 @@ img {
         position: relative;
         height: 0;
         background-color: #000;
+    }
+}
+
+#single-commemt {
+    .navigation {
+        margin: 0;
+        .alignleft {
+            margin: 0;
+        }
+    }
+    #comments {
+        margin-top: 30px;
+    }
+    .comment-respond #reply-title.comment-reply-title {
+        font-size: 18px;
+        color: #232222;
+        a {
+            color: $main;
+        }
+    }
+    .commentlist {
+        padding-left: 0;
+        .even .comment-body {
+            background-color: #ccddf2;
+        }
+        .odd .comment-body {
+            background-color: #CCCCCC;
+        }
+        li {
+            list-style: none;
+            .comment-body {
+                padding: 15px;
+            }
+            .children {
+                padding-left: 30px;
+            }
+            .fn {
+                margin-left: 10px;
+            }
+        }
+        .reply {
+            float: right;
+            margin-bottom: 10px;
+            text-align: center;
+            border-radius: 3px;
+            padding: 0;
+            width: 50px;
+            text-decoration: underline;
+            position: relative;
+            bottom: 15px;
+            a.comment-reply-link {
+                color: $pri;
+            }
+        }
+        .comment article {
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        a.comment-reply-link,
+        a.comment-edit-link {
+            color: #FFFFFF;
+            font-size: 13px;
+            font-size: 0.928571429rem;
+            line-height: 1.846153846;
+            text-decoration: none;
+        }
+        a.comment-reply-link:hover,
+        a.comment-edit-link:hover {
+            color: #f6e7d7;
+        }
+        a.comment-edit-link {
+            float: left;
+            margin: 0 0 10px 10px;
+            text-align: center;
+            background-color: #55737D;
+            border: 1px solid #55737D;
+            border-radius: 3px;
+            padding: 3px;
+            width: 50px;
+            box-shadow: 1px 1px 2px 2px #4f4f4f;
+        }
+        #cancel-comment-reply-link {
+            text-align: center;
+            background-color: #55737D;
+            border: 1px solid #55737D;
+            border-radius: 3px;
+            padding: 3px;
+            width: 50px;
+            color: #FFFFFF;
+            box-shadow: 1px 1px 2px 2px #4f4f4f;
+            text-decoration: none;
+        }
+        .comment-content {
+            font-size: 16px;
+            margin-top: 10px;
+            color: #000;
+            width: calc(100% - 60px);
+        }
+        .comment-meta {
+            color: #000;
+            position: relative;
+            .comment-author {
+                margin-bottom: 0;
+                position: relative;
+                img {
+                    border-radius: 50%;
+                    border: 5px solid #fff;
+                    width: 60px;
+                    height: 60px;
+                    object-fit: contain;
+                }
+            }
+            .comment-metadata {
+                position: absolute;
+                top: 40px;
+                left: 72px;
+                font-size: 13px;
+            }
+        }
+        a {
+            color: $main;
+        }
     }
 }
