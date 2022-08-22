@@ -48,55 +48,9 @@ get_template_part('sections/breadcrumb');
                                 </div>
                             </div>
                         </div>
-                        <?php
-                            //Declare Vars
-                            $comment_send = 'Bình luận';
-                            $comment_reply = 'Để lại lời nhắn';
-                            $comment_reply_to = 'Trả lời';
-                            
-                            $comment_author = 'Họ tên';
-                            $comment_email = 'E-Mail';
-                            $comment_body = 'Bình luận';
-                            $comment_url = 'Trang web';
-                            $comment_cookies_1 = ' Lưu tên, email và trang web của tôi trong trình duyệt này cho lần tôi nhận xét tiếp theo.';
-                            $comment_cookies_2 = ' Chính sách bảo mật';
-                            
-                            $comment_before = 'Địa chỉ email của bạn sẽ không được công bố. Các trường bắt buộc được đánh dấu *';
-                            
-                            $comment_cancel = 'Huỷ Trả Lời';
-                            
-                            //Array
-                            $comments_args = array(
-                                //Define Fields
-                                'fields' => array(
-                                    //Author field
-                                    'author' => '<p class="comment-form-author"><br /><input id="author" name="author" aria-required="true" placeholder="' . $comment_author .'"></input></p>',
-                                    //Email Field
-                                    'email' => '<p class="comment-form-email"><br /><input id="email" name="email" placeholder="' . $comment_email .'"></input></p>',
-                                    //URL Field
-                                    'url' => '<p class="comment-form-url"><br /><input id="url" name="url" placeholder="' . $comment_url .'"></input></p>',
-                                    //Cookies
-                                    'cookies' => '<input type="checkbox" required>' . $comment_cookies_1 . '<a href="' . get_privacy_policy_url() . '">' . $comment_cookies_2 . '</a>',
-                                ),
-                                // Change the title of send button
-                                'label_submit' => __( $comment_send ),
-                                // Change the title of the reply section
-                                'title_reply' => __( $comment_reply ),
-                                // Change the title of the reply section
-                                'title_reply_to' => __( $comment_reply_to ),
-                                //Cancel Reply Text
-                                'cancel_reply_link' => __( $comment_cancel ),
-                                // Redefine your own textarea (the comment body).
-                                'comment_field' => '<p class="comment-form-comment"><br /><textarea id="comment" name="comment" aria-required="true" placeholder="' . $comment_body .'"></textarea></p>',
-                                //Message Before Comment
-                                'comment_notes_before' => __( $comment_before),
-                                // Remove "Text or HTML to be displayed after the set of comment fields".
-                                'comment_notes_after' => '',
-                                //Submit Button ID
-                                'id_submit' => __( 'comment-submit' ),
-                            );
-                            // comment_form( $comments_args );
-                        ?>
+                        <div id="single-commemt">
+                            <?php comments_template('/comment.php'); ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
